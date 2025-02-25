@@ -12,6 +12,6 @@ span.title {
 
 /* 新しいタブホバー時 */
 .newtab:hover{
-	background-color: rgb(205 205 205);
+	background-color: #E3E3E3;
 	border-radius: 4px 4px 4px 4px;
 }
