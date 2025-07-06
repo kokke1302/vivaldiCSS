@@ -1,0 +1,20 @@
+/* 初期化 */
+#panels-container.left ~ div > #tabs-tabbar-container.left {
+	left: unset;
+}
+
+/* ホバー・フォーカス以外 */
+#tabs-tabbar-container.left:not(:focus-within):not(:hover){
+	width: 41px !important;
+	transition: width 0.15s ease-out 0.15s !important;
+}
+
+/* ホバー・フォーカス時 */
+#tabs-tabbar-container.left{
+	width: 260px !important;
+	transition: width 0.15s ease-out 0.15s !important;
+}
+#tabs-tabbar-container.left .newtab{
+	width: 250px !important;
+	transition: width 0.15s ease-out 0.15s !important;
+}

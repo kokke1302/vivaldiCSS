@@ -1,0 +1,18 @@
+/* デフォルトをキャンセル */
+#browser.linux .window-buttongroup button{
+  margin-left: unset;
+}
+
+/* ー□× 場所 */
+#browser.linux .window-buttongroup {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* 各アイコンに対して */
+#browser .window-buttongroup button{
+  margin-right: 7px;
+  height: 26px;
+  width: 26px;
+}

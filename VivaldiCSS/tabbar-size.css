@@ -1,0 +1,30 @@
+/* 新しいタブホバー時 */
+#tabs-container .newtab:hover{
+	background-color: rgba(0, 0, 0, 0.35);
+	border-radius: 4px;
+}
+
+/* 左右マージン調整 */
+#tabs-container.left .tab-strip{
+  margin: unset;
+  max-width: none;
+}
+#tabs-container .tab{
+  margin: 0 6px;
+}
+
+/* タブリストの大きさ調整 */
+#tabs-container.left .resize{
+  min-height: 33px;
+  max-height: unset !important;
+}
+
+/* 影の調整 */
+#tabs-container .tab.active{
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.35);
+}
+#tabs-container .tab-position{
+  margin: 5px 0;
+}
+
+
