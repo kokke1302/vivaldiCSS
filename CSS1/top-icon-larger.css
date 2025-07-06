@@ -1,0 +1,17 @@
+/* メインバー高さ */
+.mainbar {
+	height: 38px;
+}
+/* ー□×の高さ */
+#browser .window-buttongroup button {
+	height: 25px;
+}
+/* ー□×の間隔 */
+#browser.linux .window-buttongroup button {
+	margin-left: 7px;
+	padding-left: 6px;
+}
+/* ー□×の位置 */
+.window-buttongroup.on-mainbar {
+	margin-top: 5px;
+}
