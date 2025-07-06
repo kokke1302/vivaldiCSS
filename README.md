@@ -13,5 +13,5 @@ Ubuntuではメインバーの大きさが小さい。
 メインバーの高さ、ボタンの大きさや間隔を調整した。
 
 ## アップデート
-css: Vivaldi 7.5以前  
-css_latest: Vivaldi 7.5以降
+CSS1: Vivaldi 7.5以前  
+CSS2: Vivaldi 7.5以降 (latest)
